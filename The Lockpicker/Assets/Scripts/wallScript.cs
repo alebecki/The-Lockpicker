@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class unlockTrigger : MonoBehaviour
+public class wallScript : MonoBehaviour
 {
     public GameObject dronePrefab;
     public GameObject spawner;
@@ -20,9 +20,8 @@ public class unlockTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Drone"){
-            GetComponent<SpriteRenderer>().color = Color.green;
-
+            Instantiate(dronePrefab, spawner.transform.position, Quaternion.identity);//spawning at a weird place
+            Destroy(other.gameObject); 
         }
     }
-
 }

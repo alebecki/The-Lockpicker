@@ -8,6 +8,8 @@ public class DroneController : MonoBehaviour
     float speed = 0.1f;
     Rigidbody2D rb;
     Vector2 position = new Vector2(0f, 0f);
+    public bool pickedUp = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +21,20 @@ public class DroneController : MonoBehaviour
     void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        position = Vector2.Lerp(transform.position, mousePos, speed);
+        if(pickedUp){
+            position = Vector2.Lerp(transform.position, mousePos, speed);
+        }
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(position);
+        if(pickedUp){
+            rb.MovePosition(position);
+        }
     }
+
+    void OnMouseOver(){
+        pickedUp = true;
+    }
+
 }
