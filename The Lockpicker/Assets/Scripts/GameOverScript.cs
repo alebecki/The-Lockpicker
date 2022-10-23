@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameOverScript : MonoBehaviour
+{
+    public Text gameOvertext;
+    gameOvertext.text = "Game over! Better brush up on your lockpicking skills by breaking out of prison. If you can, after the criminals you’ve been robbing don’t come after you first. Better luck next time.";
+    
+    yield WaitForSeconds(10f);
+
+    SceneManager.LoadScene("MainMenu");
+
+}
