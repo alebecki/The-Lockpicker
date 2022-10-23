@@ -44,5 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e75fb0301146e464f96c4218023d745a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLocks: 0
+  maxLocks: 5
   door: {fileID: 0}
+  exit: {fileID: 0}
