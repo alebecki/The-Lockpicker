@@ -20,6 +20,7 @@ public class wallScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Drone"){
+            spawner.GetComponent<AudioSource>().Play();
             Instantiate(dronePrefab, spawner.transform.position, Quaternion.identity);//spawning at a weird place
             Destroy(other.gameObject); 
         }
