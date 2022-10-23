@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dronePrefab: {fileID: 2917563054060341385, guid: 03b4033fbb6e34073972ad23071b9a76, type: 3}
-  spawner: {fileID: 7710046526241818186, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
+  spawner: {fileID: 0}
 --- !u!61 &4281244016110719212
 BoxCollider2D:
   m_ObjectHideFlags: 0
