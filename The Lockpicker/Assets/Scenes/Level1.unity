@@ -1755,6 +1755,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -12.35
       objectReference: {fileID: 0}
+    - target: {fileID: 3488818072989355064, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
+      propertyPath: timer
+      value: 
+      objectReference: {fileID: 102666581}
     - target: {fileID: 7710046526241818186, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
       propertyPath: m_Name
       value: RespawnPoint

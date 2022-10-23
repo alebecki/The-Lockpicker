@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Main.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 0a2c3f077c6a145c9bbd454b8ff670a2
@@ -18,14 +15,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 5d6177ee5fe3d4c27a7411df21904874
   - enabled: 1
+    path: Assets/Scenes/bountypostlevel2.unity
+    guid: 8b457b1d7e4451c41a1bf0b5f3de38eb
+  - enabled: 1
     path: Assets/Scenes/MazeLevel.unity
     guid: e0924cf021dba4411950178431091629
+  - enabled: 1
+    path: Assets/Scenes/bountylevel3.unity
+    guid: da43e5ba1b95a6c48be10e37177356de
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 752480197b8f148ed906d7f5ef4fb523
   - enabled: 1
     path: Assets/Scenes/SigmaLevel.unity
     guid: 0d5197dc9e3cf4759a8eb62e70cd4ccd
+  - enabled: 1
+    path: Assets/Scenes/bountylevel4.unity
+    guid: 1f384c9847b2ebf4e98e702cb86f3e9d
   - enabled: 1
     path: Assets/Scenes/congratulationsyoupassedlevel1.unity
     guid: 594e547a867f816448b06e25ed1eafb8

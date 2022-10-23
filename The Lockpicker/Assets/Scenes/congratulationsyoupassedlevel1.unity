@@ -587,10 +587,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Congratulations on passing level 1! You stole a dirty sock!  Why didn't
-    you take the other sock? You have unlocked a bounty $1! Talk about a safety net,
-    who would track you down for $1? Do you have what it takes to beat the lowest
-    ranker on the bounty board, sitting at $5000, the Thief of Pants?  \r\n"
+  m_text: 'Congratulations you made it to the top of the bounty board!!!!!!!!!!!!!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
+    public GameObject timer;
     int lives = 3;
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,7 @@ public class GameOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(lives == 0){
+        if(lives == 0 || timer.GetComponent<TimerScript>().GetTime() <= 0){
             SceneManager.LoadScene("GameOverScreen");
         }
     }
