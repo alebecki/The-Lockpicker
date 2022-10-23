@@ -20,7 +20,7 @@ public class Exit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other){
         if(other.gameObject.tag == "Drone"){
             if(canLeave){
-                //next scene
+                Debug.Log("Exit");
             }
 
         }
