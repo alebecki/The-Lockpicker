@@ -9,6 +9,6 @@ public class GameOverScript : MonoBehaviour
     
     yield return new reading_time(10f);
 
-    SceneManager.LoadScene("Main Menu");
+    SceneManager.LoadScene("MainMenu");
 
 }
