@@ -5,16 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 0a2c3f077c6a145c9bbd454b8ff670a2
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: b50baae5f7feb41a08bb980c821432b6
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 5d6177ee5fe3d4c27a7411df21904874
+  - enabled: 1
     path: Assets/Scenes/MazeLevel.unity
     guid: e0924cf021dba4411950178431091629
   - enabled: 1
+    path: Assets/Scenes/SigmaLevel.unity
+    guid: 0d5197dc9e3cf4759a8eb62e70cd4ccd
+  - enabled: 0
     path: Assets/Scenes/GameOverScreen.unity
     guid: 9a50a2e45fc32704b9e72dac43d84a04
+  - enabled: 1
+    path: Assets/Scenes/congratulationsyoupassed.unity
+    guid: 594e547a867f816448b06e25ed1eafb8
   m_configObjects: {}
