@@ -23,4 +23,8 @@ public class GameOver : MonoBehaviour
     public void DecreaseLives(){
         lives--;
     }
+
+    public int GetLives(){
+        return lives;
+    }
 }
