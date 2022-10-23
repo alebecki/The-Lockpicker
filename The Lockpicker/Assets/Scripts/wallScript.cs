@@ -23,6 +23,7 @@ public class wallScript : MonoBehaviour
             spawner.GetComponent<AudioSource>().Play();
             Instantiate(dronePrefab, spawner.transform.position, Quaternion.identity);//spawning at a weird place
             Destroy(other.gameObject); 
+            spawner.GetComponent<GameOver>().DecreaseLives();
         }
     }
 }
