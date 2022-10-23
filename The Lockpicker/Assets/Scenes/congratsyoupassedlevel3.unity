@@ -513,7 +513,7 @@ MonoBehaviour:
   m_text: "Congratulations on passing level 3! You stole great-aunt Margaret\u2019s
     antique pearl necklace! You can practically hear her beginning to scold you.
     \u201CWhen I was your age\u2026\u201D Unfortunately, you know nothing about jewelry
-    so you got scammed by your fence. Your bounty has increased by $200. \r\n"
+    so you got scammed by your fence. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
