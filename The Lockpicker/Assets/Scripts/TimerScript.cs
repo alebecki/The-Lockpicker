@@ -8,8 +8,8 @@ public class TimerScript : MonoBehaviour
 {
     public float timeRemaining = 30; 
     public bool timerIsRunning = false;
-    public Text timeText;
-    public Text timeup;
+    /*public Text timeText;
+    public Text timeup;*/
 
     private void Start()
     {
@@ -23,25 +23,25 @@ public class TimerScript : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                DisplayTime(timeRemaining);
+                //DisplayTime(timeRemaining);
             }
             else
             {
-                timeup.text = "Time has run out! You've been caught red-handed!";
+                /*timeup.text = "Time has run out! You've been caught red-handed!";
                 Debug.Log("Time has run out! You've been caught red-handed!"); //TODO ADD TO WINDOW AS TEXT UI TOO
                 timeRemaining = 0;
                 timerIsRunning = false;
-                SceneManager.LoadScene("GameOverScene");
+                SceneManager.LoadScene("GameOverScene");*/
             }
         }
     }
-    void DisplayTime(float timeToDisplay)
+    /*void DisplayTime(float timeToDisplay)
     {
         timeToDisplay += 1;
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-    }
+    }*/
 
     public int GetTime(){
         return (int) timeRemaining;
