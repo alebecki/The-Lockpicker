@@ -7,7 +7,7 @@ public class moveWall : MonoBehaviour
     [SerializeField] Transform point1;
       [SerializeField] Transform point2;
   
-      private float moveSpeed = 2.0f;
+      private float moveSpeed = 1.0f;
       private float waitTime = 1.0f;
   
       private void Update()
