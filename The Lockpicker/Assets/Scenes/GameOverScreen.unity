@@ -497,13 +497,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Time is up! You\u2019ve been caught red-handed! Better brush up on your
-    lockpicking skills by breaking out of prison. If you can, after the criminals
-    you\u2019ve been robbing don\u2019t come after you first. Better luck next time.
-    Press the main menu button to return to the homescreen. \r\n"
+  m_text: "Game over! Better brush up on your lockpicking skills by breaking out
+    of prison. If you can, after the criminals you\u2019ve been robbing don\u2019t
+    come after you first. Better luck next time. Press the main menu button to return
+    to the homescreen. \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -77.16397, y: -12.598221, z: -314.95532, w: 11.023422}
+  m_margin: {x: -77.16397, y: -6.4920654, z: -300.30048, w: 11.023422}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
