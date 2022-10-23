@@ -25,6 +25,8 @@ public class TimerScript : MonoBehaviour
             }
             else
             {
+                public Text timeup;
+                timeup.text = "Time has run out! You've been caught red-handed!";
                 Debug.Log("Time has run out! You've been caught red-handed!"); //TODO ADD TO WINDOW AS TEXT UI TOO
                 timeRemaining = 0;
                 timerIsRunning = false;
