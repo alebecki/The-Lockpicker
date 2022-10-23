@@ -24,6 +24,7 @@ public class unlockTrigger : MonoBehaviour
         if(other.gameObject.tag == "Drone" && onlyOnce){
             onlyOnce = false;
             GetComponent<SpriteRenderer>().color = Color.green;
+            GetComponent<AudioSource>().Play();
             lockManager.GetComponent<lockManager>().increaseLock();
         }
     }
