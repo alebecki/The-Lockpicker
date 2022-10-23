@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour
+public class TimerScript : MonoBehaviour
 {
     public float timeRemaining = 30; 
     public bool timerIsRunning = false;
