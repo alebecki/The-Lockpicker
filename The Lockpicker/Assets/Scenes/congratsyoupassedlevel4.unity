@@ -285,9 +285,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Congratulations on passing level 4! You stole a bottle of one-hundred-year-old
     wine! It smells very heady. Be careful not to faint before you sell it. Your
-    bounty has increased by $6000. Your ranking has increased! Do you have what it
-    takes to beat the next on the ranking, sitting at $9050, Vince the Pig-Stealing
-    Pirate?
+    ranking has increased! Do you have what it takes to beat the next on the ranking,
+    sitting at $9050, Vince the Pig-Stealing Pirate?
 
 '
   m_isRightToLeft: 0
