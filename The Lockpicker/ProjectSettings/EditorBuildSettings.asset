@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MazeLevel.unity
     guid: e0924cf021dba4411950178431091629
   - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 752480197b8f148ed906d7f5ef4fb523
+  - enabled: 1
     path: Assets/Scenes/SigmaLevel.unity
     guid: 0d5197dc9e3cf4759a8eb62e70cd4ccd
   - enabled: 1
