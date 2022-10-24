@@ -890,7 +890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4209958910019884321, guid: 03b4033fbb6e34073972ad23071b9a76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.69
+      value: -7.94
       objectReference: {fileID: 0}
     - target: {fileID: 4209958910019884321, guid: 03b4033fbb6e34073972ad23071b9a76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -939,7 +939,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1713453900522572101, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -9.66
+      value: -7.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713453900522572101, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3488818072989355064, guid: f1dc54abb9db247369d939e0747e0d53, type: 3}
       propertyPath: timer
